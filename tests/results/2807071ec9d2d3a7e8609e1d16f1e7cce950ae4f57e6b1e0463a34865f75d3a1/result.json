@@ -1,0 +1,51 @@
+{
+  "extra": {
+    "drop_file": false,
+    "score": 0,
+    "sections": [
+      {
+        "auto_collapse": false,
+        "body": "3e774647cfdd0522eb134e7391c2331fbab7fcd35ab6788ba2054b814a35bfe3",
+        "body_config": {},
+        "body_format": "TEXT",
+        "classification": "TLP:C",
+        "depth": 0,
+        "heuristic": null,
+        "promote_to": null,
+        "tags": {
+          "file": {
+            "name": {
+              "extracted": [
+                "3e774647cfdd0522eb134e7391c2331fbab7fcd35ab6788ba2054b814a35bfe3"
+              ]
+            }
+          }
+        },
+        "title_text": "Successfully extracted 1 file",
+        "zeroize_on_tag_safe": false
+      }
+    ]
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "3e774647cfdd0522eb134e7391c2331fbab7fcd35ab6788ba2054b814a35bfe3",
+        "sha256": "3e774647cfdd0522eb134e7391c2331fbab7fcd35ab6788ba2054b814a35bfe3"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [],
+    "tags": {
+      "file.name.extracted": [
+        {
+          "heur_id": null,
+          "signatures": [],
+          "value": "3e774647cfdd0522eb134e7391c2331fbab7fcd35ab6788ba2054b814a35bfe3"
+        }
+      ]
+    },
+    "temp_submission_data": {}
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "extra": {
+    "drop_file": false,
+    "score": 500,
+    "sections": [
+      {
+        "auto_collapse": false,
+        "body": null,
+        "body_config": {},
+        "body_format": "TEXT",
+        "classification": "TLP:C",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 12,
+          "score": 500,
+          "score_map": {},
+          "signatures": {
+            "raise_score": 1
+          }
+        },
+        "promote_to": null,
+        "tags": {
+          "file": {
+            "behavior": [
+              "Archive Unknown Password"
+            ]
+          }
+        },
+        "title_text": "Failed to extract password protected file.",
+        "zeroize_on_tag_safe": false
+      }
+    ]
+  },
+  "files": {
+    "extracted": [],
+    "supplementary": [
+      {
+        "name": "password_tested.json",
+        "sha256": "90eb39ffd04f6e048eac4f47cf235f5c718e0647ccdac43112b7eceda4450db4"
+      }
+    ]
+  },
+  "results": {
+    "heuristics": [
+      {
+        "attack_ids": [],
+        "heur_id": 12,
+        "signatures": [
+          "raise_score"
+        ]
+      }
+    ],
+    "tags": {
+      "file.behavior": [
+        {
+          "heur_id": 12,
+          "signatures": [
+            "raise_score"
+          ],
+          "value": "Archive Unknown Password"
+        }
+      ]
+    },
+    "temp_submission_data": {}
+  }
+}

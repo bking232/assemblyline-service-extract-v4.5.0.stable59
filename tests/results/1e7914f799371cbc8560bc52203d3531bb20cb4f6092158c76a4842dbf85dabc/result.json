@@ -1,0 +1,128 @@
+{
+  "extra": {
+    "drop_file": false,
+    "score": 500,
+    "sections": [
+      {
+        "auto_collapse": false,
+        "body": "_p5_0\n_p5_1",
+        "body_config": {},
+        "body_format": "TEXT",
+        "classification": "TLP:C",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 19,
+          "score": 0,
+          "score_map": {},
+          "signatures": {}
+        },
+        "promote_to": null,
+        "tags": {
+          "file": {
+            "name": {
+              "extracted": [
+                "_p5_0",
+                "_p5_1"
+              ]
+            }
+          }
+        },
+        "title_text": "Successfully extracted 2 files",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "_p5_0\n_p5_1",
+        "body_config": {},
+        "body_format": "TEXT",
+        "classification": "TLP:C",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 16,
+          "score": 500,
+          "score_map": {},
+          "signatures": {}
+        },
+        "promote_to": null,
+        "tags": {
+          "file": {
+            "behavior": [
+              "Executable Content in Archive"
+            ],
+            "name": {
+              "extracted": [
+                "_p5_0",
+                "_p5_1"
+              ]
+            }
+          }
+        },
+        "title_text": "Executable Content in Archive. Potentially malicious...",
+        "zeroize_on_tag_safe": false
+      }
+    ]
+  },
+  "files": {
+    "extracted": [
+      {
+        "name": "_p5_0",
+        "sha256": "1e26938fcff220a294c03ed106068ab845d9c762f3adba926bf46c19f8ba49d6"
+      },
+      {
+        "name": "_p5_1",
+        "sha256": "f69b84249f6703cb1e99a0a39974a9d6fb543b40a9ff44f7d5da9a2bdbbd9eb3"
+      }
+    ],
+    "supplementary": []
+  },
+  "results": {
+    "heuristics": [
+      {
+        "attack_ids": [],
+        "heur_id": 16,
+        "signatures": []
+      },
+      {
+        "attack_ids": [],
+        "heur_id": 19,
+        "signatures": []
+      }
+    ],
+    "tags": {
+      "file.behavior": [
+        {
+          "heur_id": 16,
+          "signatures": [],
+          "value": "Executable Content in Archive"
+        }
+      ],
+      "file.name.extracted": [
+        {
+          "heur_id": 19,
+          "signatures": [],
+          "value": "_p5_0"
+        },
+        {
+          "heur_id": 16,
+          "signatures": [],
+          "value": "_p5_0"
+        },
+        {
+          "heur_id": 19,
+          "signatures": [],
+          "value": "_p5_1"
+        },
+        {
+          "heur_id": 16,
+          "signatures": [],
+          "value": "_p5_1"
+        }
+      ]
+    },
+    "temp_submission_data": {}
+  }
+}

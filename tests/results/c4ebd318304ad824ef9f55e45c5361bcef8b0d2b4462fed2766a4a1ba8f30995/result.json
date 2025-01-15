@@ -1,0 +1,87 @@
+{
+  "extra": {
+    "drop_file": false,
+    "score": 0,
+    "sections": [
+      {
+        "auto_collapse": false,
+        "body": "DocumentsFolder 6987584 12202022.img (Password:s1835)",
+        "body_config": {},
+        "body_format": "TEXT",
+        "classification": "TLP:C",
+        "depth": 0,
+        "heuristic": null,
+        "promote_to": null,
+        "tags": {},
+        "title_text": "Found corrupted files (Wrong password?)",
+        "zeroize_on_tag_safe": false
+      },
+      {
+        "auto_collapse": false,
+        "body": "Unextracted files in password protected archive:\nDocumentsFolder 6987584 12202022.img",
+        "body_config": {},
+        "body_format": "TEXT",
+        "classification": "TLP:C",
+        "depth": 0,
+        "heuristic": {
+          "attack_ids": [],
+          "frequency": 1,
+          "heur_id": 12,
+          "score": 0,
+          "score_map": {},
+          "signatures": {}
+        },
+        "promote_to": null,
+        "tags": {
+          "file": {
+            "behavior": [
+              "Archive Unknown Password"
+            ],
+            "name": {
+              "extracted": [
+                "DocumentsFolder 6987584 12202022.img"
+              ]
+            }
+          }
+        },
+        "title_text": "Failed to extract password protected file.",
+        "zeroize_on_tag_safe": false
+      }
+    ]
+  },
+  "files": {
+    "extracted": [],
+    "supplementary": [
+      {
+        "name": "password_tested.json",
+        "sha256": "d75024ad162e66ff8dd09e2084ccada07279d18bed5e12baccadf4886428da5e"
+      }
+    ]
+  },
+  "results": {
+    "heuristics": [
+      {
+        "attack_ids": [],
+        "heur_id": 12,
+        "signatures": []
+      }
+    ],
+    "tags": {
+      "file.behavior": [
+        {
+          "heur_id": 12,
+          "signatures": [],
+          "value": "Archive Unknown Password"
+        }
+      ],
+      "file.name.extracted": [
+        {
+          "heur_id": 12,
+          "signatures": [],
+          "value": "DocumentsFolder 6987584 12202022.img"
+        }
+      ]
+    },
+    "temp_submission_data": {}
+  }
+}
